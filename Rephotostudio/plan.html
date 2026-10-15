@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLAN | Re: Photo Studio</title>
+  <script src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<div class="photo-modal" id="photoModal">
+  <img id="photoModalImg" src="" alt="拡大写真">
+</div>
+
+<body id="top">
+
+ <!-- スマホ用ヘッダー -->
+ <header class="sp-header" id="spHeader">
+  <a href="index.html" class="sp-logo">
+    <img src="./img/TOPPAGE-assets/footer‐logo.png" alt="">
+  </a>
+
+  <button class="sp-menu-btn" id="spMenuBtn"
+          aria-label="メニューを開く"
+          aria-expanded="false">
+    ☰
+  </button>
+
+  <nav class="sp-nav" id="spNav">
+    <a href="index.html">TOP</a>
+    <a href="plan.html">PLAN</a>
+    <a href="faq.html">FAQ</a>
+    <a href="reservation.html">RESERVATION</a>
+  </nav>
+</header>
+  
+  <!-- =========================3カラム全体========================== -->
+<div class="wrapper">
+
+   <!-- ========================= 左メニュー ========================== -->
+   <div class="left-menu">
+
+    <!-- TOP -->
+    <a href="index.html" class="menu-item menu-top">
+
+      <img
+        src="./img/TOPPAGE-assets/TOP.png"
+        alt=""
+        class="menu-person"
+      >
+
+      <img
+        src="./img/TOPPAGE-assets/TOP-text.png"
+        alt="TOP"
+        class="menu-title"
+      >
+
+    </a>
+
+
+    <!-- PLAN -->
+    <a href="plan.html" class="menu-item menu-plan">
+
+      <img
+        src="./img/TOPPAGE-assets/PLAN.png"
+        alt=""
+        class="menu-person"
+      >
+
+      <img
+        src="./img/TOPPAGE-assets/PLAN-text.png"
+        alt="PLAN"
+        class="menu-title"
+      >
+
+    </a>
+</div>
+
+ <!-- =========================真ん中========================== -->
+
+<main class="main plan-page">
+
+
+  <!-- メインビジュアル -->
+  <div class="plan-mainvisual">
+    <img src="./img/PLAN-assets/plan-top.jpg" alt="">
+  </div>
+
+<!-- PLANタイトル -->
+<section class="plan-intro">
+
+  <h1>PLAN</h1>
+  <p class="sub-title">プラン</p>
+
+  <h2>"Choose from 3 Plans"</h2>
+
+  <p>
+    「おふたりらしいベスト」が見つかる、3つの選択肢。<br>
+    レンタル衣装でも、おふたりがお気に入りなら。<br>
+    衣装を持ち込んでも。
+  </p>
+
+</section>
+
+<!-- 01 KIMAGURE -->
+<a href="#kimagure" class="plan-select-item">
+
+  <p class="plan-number">01</p>
+  <h2>"KIMAGURE"</h2>
+
+  <img
+    src="./img/PLAN-assets/KIMAGURE.png"
+    alt="KIMAGURE"
+  >
+
+</a>
+
+
+<!-- 02 TOKIMEKI -->
+<a href="#tokimeki" class="plan-select-item">
+
+  <p class="plan-number">02</p>
+  <h2>"TOKIMEKI"</h2>
+
+  <img
+    src="./img/PLAN-assets/TOKIMEKI.png"
+    alt="TOKIMEKI"
+  >
+
+</a>
+
+
+<!-- 03 YOKUBARI -->
+<a href="#yokubari" class="plan-select-item">
+
+  <p class="plan-number">03</p>
+  <h2>"YOKUBARI"</h2>
+
+  <img
+    src="./img/PLAN-assets/YOKUBARI.png"
+    alt="YOKUBARI"
+  >
+
+</a>
+
+
+<!-- 矢印 -->
+<a href="#kimagure" class="plan-arrow">
+  <img
+    src="./img/PLAN-assets/down-icon.png"
+    alt="プラン詳細を見る"
+  >
+</a>
+
+<!-- =========================KIMAGURE 詳細========================== -->
+
+  <section class="plan-detail" id="kimagure">
+
+    <h2>Produce "KIMAGURE"</h2>
+
+    <p>
+      プロデュースプラン "きまぐれ"<br>
+      …¥561,000(税込)〜
+    </p>
+
+    <!-- 撮影IMAGE 6枚 -->
+  <div class="plan-gallery">
+
+    <img src="./img/PLAN-assets/KIMAGRE1.jpg" 
+    data-full="./img/PLAN-assets/KIMAGURE-full1.jpeg"
+    alt="KIMAGURE 撮影イメージ">
+    <img src="./img/PLAN-assets/KIMAGRE2.jpg" 
+    data-full="./img/PLAN-assets/KIMAGURE-full2.jpeg"
+    alt="KIMAGURE 撮影イメージ">
+    <img src="./img/PLAN-assets/KIMAGRE3.jpg" 
+    data-full="img/PLAN-assets/KIMAGURE-full3.jpg"
+    alt="KIMAGURE 撮影イメージ">
+    <img src="./img/PLAN-assets/KIMAGRE4.jpg" 
+    data-full="img/PLAN-assets/KIMAGURE-full4.jpeg"
+    alt="KIMAGURE 撮影イメージ">
+    <img src="./img/PLAN-assets/KIMAGRE5.jpg"
+    data-full="img/PLAN-assets/KIMAGURE-full5.jpeg"
+    alt="KIMAGURE 撮影イメージ">
+    <img src="./img/PLAN-assets/KIMAGRE6.jpg" 
+    data-full="img/PLAN-assets/KIMAGURE-full6.png"
+    alt="KIMAGURE 撮影イメージ">
+
+
+  </div>
+
+  <p class="plan-description">
+    「今日はふたりの気分のままに、寄り道だって。」
+  </p>
+
+  <p class="plan-explanation">
+    街を歩いたり、ふらっと寄り道したり。<br>
+    決めすぎないからこそ生まれる、<br>
+    自然なふたりを残すロケーションプラン。<br>
+    ちょっぴりレトロな映画のワンシーンのように。
+  </p>
+  
+  <!-- プラン内容 -->
+  <h3>Contents <span>− 内容 −</span></h3>
+  
+  <p class="plan-contents-text">
+    撮影時間 ： 最大5時間<br>
+    データ納品 ： 約400枚（web）<br>
+    ロケ箇所 ： 最大2箇所<br>
+    衣装 ： 1〜2着<br>
+    ヘアメイク ： 1スタイル<br>
+    特典 ： ショート動画1本撮影＋プレゼント<br>
+    衣装（実費）｜ オーダーブーケ＆ブートニア ｜ ヘアメイク<br>
+    ※衣装費用はリメイク費込み（変動あり）・買取<br>
+    ※移動交通費等は別途
+  </p>
+
+</section>
+
+<!-- =========================TOKIMEKI 詳細========================== -->
+
+  <section class="plan-detail" id="tokimeki">
+
+    <h2>Produce "TOKIMEKI"</h2>
+
+    <p>
+      プロデュースプラン "ときめき"<br>
+      …¥561,000(税込)〜
+    </p>
+
+    <div class="plan-gallery">
+
+      <img src="./img/PLAN-assets/TOKIMEKI1.jpg" 
+      data-full="img/PLAN-assets/TOKIMEKI-full1.jpg"
+      alt="TOKIMEKI 撮影イメージ">
+      <img src="./img/PLAN-assets/TOKIMEKI2.jpg" 
+      data-full="img/PLAN-assets/TOKIMEKI-full2.jpeg"
+      alt="TOKIMEKI 撮影イメージ">
+      <img src="./img/PLAN-assets/TOKIMEKI3.jpg" 
+      data-full="img/PLAN-assets/TOKIMEKI-full3.png"
+      alt="TOKIMEKI 撮影イメージ">
+      <img src="./img/PLAN-assets/TOKIMEKI4.jpg" 
+      data-full="img/PLAN-assets/TOKIMEKI-full4.jpg"
+      alt="TOKIMEKI 撮影イメージ">
+      <img src="./img/PLAN-assets/TOKIMEKI5.jpg" 
+      data-full="img/PLAN-assets/TOKIMEKI-full5.jpg"
+      alt="TOKIMEKI 撮影イメージ">
+      <img src="./img/PLAN-assets/TOKIMEKI6.jpg" 
+      data-full="img/PLAN-assets/TOKIMEKI-full6.png"
+      alt="TOKIMEKI 撮影イメージ">
+    
+    </div>
+
+    <p class="plan-description">
+      「好きな色に囲まれて、ときめく瞬間を。」
+    </p>
+
+    <p class="plan-explanation">
+      ドレスも、ブーケも、ロケーションも。<br>
+      ふたりの“好き”をぎゅっと詰め込んだウェディングフォト。<br>
+      ちょっぴりレトロで遊び心のある世界観で、<br>
+      自然な笑顔やふたりらしい瞬間を残します。<br>
+    </p>
+    
+    <!-- プラン内容 -->
+    <h3>Contents <span>− 内容 −</span></h3>
+    
+    <p class="plan-contents-text">
+      撮影時間 ： 最大3時間<br>
+      データ納品 ： 約200枚（web）<br>
+      ロケ箇所 ： 1箇所<br>
+      衣装 ： 1着<br>
+      ヘアメイク ： 1スタイル  <br>
+      衣装（実費）｜ オーダーブーケ＆ブートニア ｜ ヘアメイク<br>
+      ※衣装費用はリメイク費込み（変動あり）・買取<br>
+      ※移動交通費等は別途<br>
+    </p>
+
+  </section>
+
+
+
+  <!-- =========================YOKUBARI 詳細========================== -->
+
+  <section class="plan-detail" id="yokubari">
+
+    <h2>Produce "YOKUBARI"</h2>
+
+    <p>
+      プロデュースプラン "よくばり"<br>
+      …¥781,000(税込)〜
+    </p>
+
+    <div class="plan-gallery">
+
+      <img src="./img/PLAN-assets/YOKUBARI1.jpg" 
+      data-full="img/PLAN-assets/YOKUBARI-full1.jpg"
+      alt="YOKUBARI 撮影イメージ">
+      <img src="./img/PLAN-assets/YOKUBARI2.jpg" 
+      data-full="img/PLAN-assets/YOKUBARI-full2.jpg"
+      alt="YOKUBARI 撮影イメージ">
+      <img src="./img/PLAN-assets/YOKUBARI3.jpg" 
+      data-full="img/PLAN-assets/YOKUBARI-full3.jpg"
+      alt="YOKUBARI 撮影イメージ">
+      <img src="./img/PLAN-assets/YOKUBARI4.jpg" 
+      data-full="img/PLAN-assets/YOKUBARI-full4.jpg"
+      alt="YOKUBARI 撮影イメージ">
+      <img src="./img/PLAN-assets/YOKUBARI5.jpg" 
+      data-full="img/PLAN-assets/YOKUBARI-full5.jpg"
+      alt="YOKUBARI 撮影イメージ">
+      <img src="./img/PLAN-assets/YOKUBARI6.jpg" 
+      data-full="img/PLAN-assets/YOKUBARI-full6.jpg"
+      alt="YOKUBARI 撮影イメージ">
+    
+    </div>
+
+    <p class="plan-description">
+      「ひとつに決めなくていい。やりたいこと、ぜんぶ叶えよう。」
+    </p>
+
+    <p class="plan-explanation">
+      そんなふたりの“やりたい”を<br>
+ぎゅっと詰め込んだスペシャルプラン。<br>
+かわいいも、おしゃれも、遊び心も。<br>
+全部欲張って、ふたりだけの特別な一日を。<br>
+    </p>
+    
+    <!-- プラン内容 -->
+    <h3>Contents <span>− 内容 −</span></h3>
+    
+    <p class="plan-contents-text">
+      撮影時間 ： 最大7時間<br>
+データ納品 ： 約600枚（web・DVD）<br>
+ロケ箇所 ： 時間内であれば無制限<br>
+特典1 ： ショート動画1本撮影＋プレゼント<br>
+特典2 ： ヘアチェンジ1回無料<br>
+衣装（実費）｜ オーダーブーケ＆ブートニア ｜ ヘアメイク<br>
+※衣装費用はリメイク費込み（変動あり）・買取<br>
+※移動交通費等は別途<br>
+    </p>
+
+  </section>
+
+   <!-- =========================FOOTER========================== -->
+
+<footer class="footer">
+
+  <!-- SNS -->
+  <div class="sns">
+
+    <!-- Instagram -->
+    <a href="#">
+      <img src="./img/TOPPAGE-assets/icons8-inst.png" alt="Instagram">
+    </a>
+
+    <!-- LINE -->
+    <a href="#">
+      <img src="./img/TOPPAGE-assets/icons8-line.png" alt="LINE">
+    </a>
+
+    <!-- YouTube -->
+    <a href="#">
+      <img src="./img/TOPPAGE-assets/icon-youtube.png" alt="YouTube">
+    </a>
+
+  </div>
+
+
+  <h3>Company</h3>
+
+  <nav>
+    <a href="#">会社概要</a>
+    <a href="#">個人情報保護方針</a>
+    <a href="#">採用情報</a>
+    <a href="./reservation.html">法人さまお問い合わせ</a>
+  </nav>
+
+
+  <!-- フッターロゴ -->
+  <a href="#top" class="footer-logo-link">
+    <img
+      src="./img/TOPPAGE-assets/footer‐logo.png"
+      alt="Re: Photo Studio"
+      class="footer-logo"
+    >
+    </a>
+
+
+  <small>
+    © 2026 Re: Photo Studio. All Rights Reserved.
+  </small>
+
+</footer>
+</main>
+
+<!-- =========================右メニュー========================== -->
+
+<div class="right-menu">
+
+
+  <!-- CONTACT -->
+  <a href="./reservation.html" class="menu-item menu-contact">
+
+    <img
+      src="./img/TOPPAGE-assets/CONTACT.png"
+      alt=""
+      class="menu-person"
+    >
+
+    <img
+      src="./img/TOPPAGE-assets/CONTACT-text.png"
+      alt="CONTACT"
+      class="menu-title"
+    >
+
+  </a>
+
+
+  <!-- FAQ -->
+  <a href="faq.html" class="menu-item menu-faq">
+
+    <img
+      src="./img/TOPPAGE-assets/FAQ.png"
+      alt=""
+      class="menu-person"
+    >
+
+    <img
+      src="./img/TOPPAGE-assets/FAQ-text.png"
+      alt="FAQ"
+      class="menu-title"
+    >
+
+  </a>
+
+</div>
+
+
+</div>
+</body>
+</html>
